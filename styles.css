@@ -10,6 +10,7 @@ a:link, a:visited, a:hover{
 
 h1{
     font-weight: 700;
+    font-size: 4em;
 }
 
 #image{
@@ -36,12 +37,24 @@ main{
     align-items: flex-start;
     gap: 100px;
     
+    
 }
 
 header{
-    background-color: rgb(255, 255, 255);
-    padding: 20px 0;
+    display:flex;
+    flex-flow: row wrap;
+    background-color: #fff;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
 
+#image2{
+    max-width: 100%;
+}
+
+#title{
+    position: absolute;
 }
 
 #tribute-info ul li, #books ul li{
@@ -121,6 +134,24 @@ footer{
         margin-bottom: 100px;
     }
 
+    header{
+        background-color: beige;
+        background-image: none;
+        height: auto;
+        
+       
+    
+    }
+
+    #title{
+    
+        transform: translate(0%,0%);
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 2em;
+    }
 
   }
   
